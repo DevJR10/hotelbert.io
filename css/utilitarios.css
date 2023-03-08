@@ -1,0 +1,24 @@
+.flex{
+   max-width: 1100px;
+   margin: 0 auto;
+   padding: 25px 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.bg-verde{
+   background-color: #D1FAFF;
+}
+
+.color-verde{
+   color:#62A87C;
+}
+
+.color-paragrafo{
+   color: #70778B;
+}
+
+.ponto{
+   color: #62A87C;
+}
