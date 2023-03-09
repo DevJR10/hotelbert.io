@@ -14,22 +14,23 @@
             <h1>Hotel Bert</h1>
    
             <ul class="lista">
-               <li>Sobre</li>
-               <li>Fotos</li>
-               <li>Lozalização</li>
-               <li>Preços</li>
-               <li>Avaliações</li>
+               <li><a href="#somos">Sobre</a></li>
+               <li><a href="#foto">Fotos</a></li>
+               <li><a href="#localizacao">Localização</a></li>
+               <li><a href="#preco">Preços</a></li>
+               <li><a href="#avaliacoes">Avaliações</a></li>
+               <li><a href="#contato">Contato</a></li>
             </ul>
 
             <button class="btn-menu-mobile" data-mobile="btn">Menu</button>
 
             <ul data-mobile="lista" class="menu-mobile">
-               <li>Sobre</li>
-               <li>Fotos</li>
-               <li>Lozalização</li>
-               <li>Preços</li>
-               <li>Avaliações</li>
-               <li>Contato</li>
+               <li><a href="#somos">Sobre</a></li>
+               <li><a href="#foto">Fotos</a></li>
+               <li><a href="#localizacao">Localização</a></li>
+               <li><a href="#preco">Preços</a></li>
+               <li><a href="#avaliacoes">Avaliações</a></li>
+               <li><a href="#contato">Contato</a></li>
             </ul>
          </div>
       </header>
@@ -37,16 +38,16 @@
       <main>
          <div class="main">
             <div class="titulo">
-
                <h1>Tudo em um só lugar.</h1>
             </div>
             <p>O hotel mais requisitado na região de Ubatuba, tem o prazer de receber você.</p>
+            <button class="btn"><a href="#preco">conhecer</a></button>
          </div>
       </main>
 </div>
       <div class="img-fundo"></div>
 
-   <article class="somos">
+   <article class="somos" id="somos">
       <div class="main flex">
          <div class="main-texto">
             <h2>Quem somos...</h2>
@@ -61,7 +62,7 @@
             Nas praias mais paradisiacas e com areia branquinha, venha se hospedar no hotel mais sofisticado e moderno da região.
             </p>
 
-            <button>conhecer</button>
+            <button>ver disponibilidade</button>
          </div>
          <div class="main-img">
             <img src="imgs/varanda.jpg" alt="">
@@ -69,49 +70,75 @@
       </div>
    </article>
 
-   <article class="precos">
-      <h2 class="color-verde">Escolha o melhor plano pra você<span class="ponto">.</span></h2>
-      <div class="precos-grid flex">
-         <div class="plano-lazaro plano bg-verde">
-            <h3>Plano Lázaro</h3>
-            <span>R$ 190 diária - por pessoa</span>
-            <p>O que está incluso:</p>
-            <ul>
-               <li>Hospedagem</li>
-               <li>Serviço de quarto</li>
-               <li>Área de lazer</li>
-               <li>Piscina</li>
-            </ul>
+   <article class="article-preco" id="preco">
+      <div class="precos">
+         <h2 class="color-verde">Escolha o melhor plano pra você<span class="ponto">.</span></h2>
+         <div class="precos-grid flex">
+            <div class="plano-lazaro plano">
+               <h3>Plano Lázaro</h3>
+               <span>R$ 190 diária - por pessoa</span>
+               <p>O que está incluso:</p>
+               <ul>
+                  <li>Hospedagem</li>
+                  <li>Serviço de quarto</li>
+                  <li>Área de lazer</li>
+                  <li>Piscina</li>
+               </ul>
+            </div>
+            
+            <div class="plano-lagoinha plano">
+               <h3>Plano Lagoinha</h3>
+               <span>R$ 230 diária - por pessoa</span>
+               <p>O que está incluso:</p>
+               <ul>
+                  <li>Hospedagem</li>
+                  <li>Serviço de quarto</li>
+                  <li>Área de lazer</li>
+                  <li>Piscina</li>
+                  <li>Café da manhã</li>
+               </ul>
+            </div>
+
+            <div class="plano-forte plano">
+               <h3>Plano Forte</h3>
+               <span>R$ 300 diária - por pessoa</span>
+               <p>O que está incluso:</p>
+               <ul>
+                  <li>Hospedagem</li>
+                  <li>Serviço de quarto</li>
+                  <li>Área de lazer</li>
+                  <li>Piscina</li>
+                  <li>Café da manhã</li>
+                  <li>Passeios de lancha</li>
+               </ul>
+            </div>
+         </div>
+   </div>
+   </article>
+
+   <section id="localizacao" class="localizacao">
+      <div class="localizacao-grid flex">
+         <div class="localizacao-img">
+            <img src="imgs/mapa-tooltip.png" alt="">
          </div>
          
-         <div class="plano-lagoinha plano">
-            <h3>Plano Lagoinha</h3>
-            <span>R$ 230 diária - por pessoa</span>
-            <p>O que está incluso:</p>
-            <ul>
-               <li>Hospedagem</li>
-               <li>Serviço de quarto</li>
-               <li>Área de lazer</li>
-               <li>Piscina</li>
-               <li>Café da manhã</li>
-            </ul>
-         </div>
+         <div class="localizacao-texto">
+            <h2 class="titulo color-verde">Pertinho dos melhores lugares</h2>
 
-         <div class="plano-forte plano">
-            <h3>Plano Forte</h3>
-            <span>R$ 300 diária - por pessoa</span>
-            <p>O que está incluso:</p>
+            <p class="color-paragrafo">Além do nosso hotel ter um espaço sofisticado, a nossa localização também é previlegiada. Veja os pontos que ficam perto da gente:</p>
+
             <ul>
-               <li>Hospedagem</li>
-               <li>Serviço de quarto</li>
-               <li>Área de lazer</li>
-               <li>Piscina</li>
-               <li>Café da manhã</li>
-               <li>Passeios de lancha</li>
+               <li>Praia do Lazáro - 400m de distância</li>
+               <li>Praia do Forte - 1000m de distância</li>
+               <li>Supermercado Oba - 300m de distância</li>
+               <li>Farmácia Drogasil - 600m de distância</li>
+               <li>Padaria Chico - 700m de distância</li>
+               <li>Restaurante e Bar - 500m de distância</li>
+               <li>Estrada - 700m de distância</li>
             </ul>
          </div>
       </div>
-   </article>
+   </section>
 
    <script type="module" src="js/script.js"></script>
 </body>

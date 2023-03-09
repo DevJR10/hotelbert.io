@@ -4,8 +4,12 @@ header{
    /* background-color: #427AA1; */
 }
 
+.menu{
+   gap: 40px;
+}
 
 .menu h1{
+   min-width: max-content;
    color: #EBF2FA;
    font-family: 'Poppins', sans-serif;
    font-weight: bolder;
@@ -14,6 +18,7 @@ header{
 .lista{
    display: flex;
    gap: 10px;
+   flex-wrap: wrap;
 }
 
 .lista li{
@@ -23,6 +28,7 @@ header{
    font-family: 'Poppins', sans-serif;
    font-weight: 300;
 }
+
 .lista li:hover{
    cursor: pointer;
 }
@@ -39,7 +45,7 @@ header{
    font-family: 'Raleway', sans-serif;
    font-size: 0.8rem;
    border-radius: 4px;
-   cursor: help;
+   cursor: pointer;
 }
 
 .btn-menu-mobile::after{
@@ -75,6 +81,10 @@ header{
    font-size: 1.2rem;
    font-family: 'Poppins', sans-serif;
    font-weight: 300;
+}
+
+.menu-mobile li a{
+   color: black;
 }
 
 @keyframes show-right {

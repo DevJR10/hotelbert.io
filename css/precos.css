@@ -1,7 +1,11 @@
+.article-preco{
+   /* background-color: #F2FDFF; */
+}
+
 .precos{
    max-width: 1100px;
    margin: 0 auto;
-   padding: 0 20px;
+   padding-top: 80px;
    flex-wrap: wrap;
 }
 
@@ -14,7 +18,9 @@
 }
 
 .precos-grid{
+   flex-wrap: wrap;
    align-items: flex-end;
+   gap: 20px;
 }
 
 .plano{
@@ -68,13 +74,17 @@
    border-radius: 100%;
 }
 
+.plano-lazaro{
+   background-color: #F2FDFF;
+}
+
 .plano-lagoinha{
    position: relative;
-   background-color: #93cde2;
+   background-color: #c9f1f8;
 }
 
 .plano-forte{
-   background-color: #7fa0bbef;
+   background-color: #aff3ff;
 }
 
 .plano-lagoinha::after{
@@ -87,7 +97,8 @@
    font-family: 'Raleway', sans-serif;
 }
 
-@media(max-width:700px){
+
+@media(max-width:800px){
    .precos{
       padding-top: 40px;
    }

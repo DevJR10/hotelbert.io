@@ -11,6 +11,7 @@
 @import './main.css';
 @import './utilitarios.css';
 @import './precos.css';
+@import './localizacao.css';
 
 *{
    border: 0;
@@ -24,6 +25,8 @@ img{
    max-width: 100%;
 }
 
-.btn-menu-mobile{
-   cursor: pointer;
+a{
+   text-decoration: none;
+   color: white;
 }
+
