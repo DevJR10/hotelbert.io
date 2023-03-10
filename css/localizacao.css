@@ -1,5 +1,6 @@
 .localizacao{
    padding-top: 80px;
+   padding: 80px 20px 0 20px;
 }
 
 .localizacao-grid{
@@ -12,8 +13,9 @@
    height: 100%;
 }
 
-.localizacao-texto h2{
+.localizacao h2{
    margin-bottom: 20px;
+   text-align: center;
 }
 
 .localizacao-texto p{
@@ -43,19 +45,30 @@
    height: 4px;
    content: '';
    display: flex;
-   background-color: #000000;
+   background-color: #62A87C;
    border-radius: 100%;
 }
 
 @media(max-width:800px){
+   .localizacao{
+      padding-top: 40px;
+   }
    .localizacao-grid{
       grid-template-columns: 1fr;
+      padding-top: 10px;
    }
    .localizacao-texto{
       order: -1;
+   }
+   .localizacao h2{
+      text-align: left;
    }
    .localizacao-img{
       display: flex;
       justify-content: center;
    }
+   .localizacao-grid{
+      gap: 30px;
+   }
+
 }
