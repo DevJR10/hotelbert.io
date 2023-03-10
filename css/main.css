@@ -76,4 +76,7 @@ main button{
    .titulo{
       text-align: center;
    }
+   .main .titulo{
+      line-height: 1.2;
+   }
 }
