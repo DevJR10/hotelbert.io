@@ -23,6 +23,14 @@
    color: #62A87C;
 }
 
+.paragrafo{
+   line-height: 1.4;
+   font-size: 1rem;
+   font-family: 'Raleway', sans-serif;
+   color: #70778B;
+   margin-bottom: 20px;
+}
+
 .titulo{
    font-family: 'Raleway', sans-serif;
    font-size: 1.6rem;
