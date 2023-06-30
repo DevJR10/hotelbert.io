@@ -16,8 +16,8 @@
             <ul class="lista">
                <li><a href="#somos">Sobre</a></li>
                <li><a href="#foto">Fotos</a></li>
-               <li><a href="#localizacao">Localização</a></li>
                <li><a href="#preco">Preços</a></li>
+               <li><a href="#localizacao">Localização</a></li>
                <li><a href="#avaliacoes">Avaliações</a></li>
                <li><a href="#contato">Contato</a></li>
             </ul>
@@ -27,8 +27,8 @@
             <ul data-mobile="lista" class="menu-mobile">
                <li><a href="#somos">Sobre</a></li>
                <li><a href="#foto">Fotos</a></li>
-               <li><a href="#localizacao">Localização</a></li>
                <li><a href="#preco">Preços</a></li>
+               <li><a href="#localizacao">Localização</a></li>
                <li><a href="#avaliacoes">Avaliações</a></li>
                <li><a href="#contato">Contato</a></li>
             </ul>
@@ -47,10 +47,10 @@
 </div>
       <div class="img-fundo"></div>
 
-   <article class="somos" id="somos">
+   <article class="somos" id="somos" data-animaScroll>
       <div class="main flex">
          <div class="main-texto">
-            <h2>Quem somos...</h2>
+            <h2 class="h2">Quem somos...</h2>
             <p>Somos um hotel localizado na praia de Ubatuba que oferece a melhor expêriencia da região.
                
                <br><br>
@@ -69,37 +69,39 @@
          </div>
       </div>
    </article>
+   
+   <div class="section-slide" data-animaScroll id="foto">
+      <h2 class="h2">Fotos</h2>
+      <div class="slide-wrapper">
+         <ul class="slide">
+         <li><img src="imgs/area-kids.jpg" alt=""></li>
+         <li><img src="imgs/comida.webp" alt=""></li>
+         <li><img src="imgs/corredor.webp" alt=""></li>
+         <li><img src="imgs/entrada hotell.webp" alt=""></li>
+         <li><img src="imgs/piscina.jpg" alt=""></li>
+         <li><img src="imgs/varanda-por-do-sol.webp" alt=""></li>
+         </ul>
 
-   <div class="slide-wrapper">
-      <ul class="slide">
-        <li><img src="imgs/area-kids.jpg" alt=""></li>
-        <li><img src="imgs/comida.webp" alt=""></li>
-        <li><img src="imgs/corredor.webp" alt=""></li>
-        <li><img src="imgs/entrada hotell.webp" alt=""></li>
-        <li><img src="imgs/piscina.jpg" alt=""></li>
-        <li><img src="imgs/varanda-por-do-sol.webp" alt=""></li>
-      </ul>
+         <div class="arrow-nav">
+            <button class="prev">❮</button>
+            <button class="next">❯</button>
+         </div>
+      </div>
 
-      <div class="arrow-nav">
-         <button class="prev">❮</button>
-         <button class="next">❯</button>
-       </div>
-         
-         <p class="paragrafo">No Hotel Bert, além de você ter conforto e sutilidade, temos diversas áreas que podem te trazer descanso e momentos únicos. 
+      <p class="paragrafo">No Hotel Bert, além de você ter conforto e sutilidade, temos diversas áreas que podem te trazer descanso e momentos únicos. 
                   
-               <br><br>
+         <br><br>
    
-            Contamos com salão de jogos, piscina, salão de café da manhã com diversas opções e nossos incriveís passeios de lancha.
+      Contamos com salão de jogos, piscina, salão de café da manhã com diversas opções e nossos incriveís passeios de lancha.
    
-               <br><br>
+         <br><br>
    
-               Além disso, temos uma equipe enorme e totalmente profissional esperando para atender você e sua família. Aqui você só curte e descansa, sem se preocupar com nada. 
-            </p>
+         Além disso, temos uma equipe enorme e totalmente profissional esperando para atender você e sua família. Aqui você só curte e descansa, sem se preocupar com nada. 
+      </p>
     </div>
-   
 
-
-   <article class="article-preco" id="preco">
+    
+   <article class="article-preco" id="preco" data-animaScroll>
       <div class="precos">
          <h2 class="color-verde">Escolha o melhor plano pra você<span class="ponto">.</span></h2>
          <div class="precos-grid flex">
@@ -145,10 +147,10 @@
    </div>
    </article>
 
-   <section id="localizacao" class="localizacao">
+   <section id="localizacao" class="localizacao" data-animaScroll="localizacao">
       <h2 class="titulo color-verde">Pertinho dos melhores lugares</h2>
       <div class="localizacao-grid flex">
-         <div class="localizacao-img">
+         <div class="localizacao-img" aria-label="A 400m da praia">
             <img src="imgs/mapa-tooltip.png" alt="">
          </div>
          
@@ -166,6 +168,43 @@
                <li>Estrada - 700m de distância</li>
             </ul>
          </div>
+      </div>
+   </section>
+
+   <section class="avaliacoes-section" id="avaliacoes">
+      <h2 class="titulo color-verde">Avaliações</h2>
+      <div class="avaliacoes-grid">
+         <ul class="avaliacoes">
+            <li>
+               <p>“ Sem dúvidas um dos melhores hotéis que já me hospedei, desde a recepção até a saída, foi um tratamento e atendimento espetacular. Comida maravilhosa, tudo muito bem arrumado e higienizado, espaço enorme e sem contar a localização previlegiada que conta com tudo por perto. Vou voltar sempre agora. ”</p>
+               <span>Caetano Veloso</span>
+            </li>
+
+            <li>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui ipsum recusandae ducimus, corporis explicabo suscipit nemo iste fugit temporibus laudantium eligendi nostrum unde, natus reiciendis. Quas omnis earum cum in!</p>
+               <span>Caetano Veloso</span>
+            </li>
+
+            <li>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui ipsum recusandae ducimus, corporis explicabo suscipit nemo iste fugit temporibus laudantium eligendi nostrum unde, natus reiciendis. Quas omnis earum cum in!</p>
+               <span>Caetano Veloso</span>
+            </li>
+
+            <li>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui ipsum recusandae ducimus, corporis explicabo suscipit nemo iste fugit temporibus laudantium eligendi nostrum unde, natus reiciendis. Quas omnis earum cum in!</p>
+               <span>Caetano Veloso</span>
+            </li>
+
+            <li>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui ipsum recusandae ducimus, corporis explicabo suscipit nemo iste fugit temporibus laudantium eligendi nostrum unde, natus reiciendis. Quas omnis earum cum in!</p>
+               <span>Caetano Veloso</span>
+            </li>
+
+            <li>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui ipsum recusandae ducimus, corporis explicabo suscipit nemo iste fugit temporibus laudantium eligendi nostrum unde, natus reiciendis. Quas omnis earum cum in!</p>
+               <span>Caetano Veloso</span>
+            </li>
+         </ul>
       </div>
    </section>
 

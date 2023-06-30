@@ -50,3 +50,80 @@
    cursor: pointer;
    border-radius: 3px;
 }
+
+.h2{
+   font-family: 'Raleway', sans-serif;
+   font-size: 1.6rem;
+   text-transform: uppercase;
+   font-weight: 100;
+   margin-bottom: 20px;
+   color: #62A87C;
+}
+
+[data-animaScroll]{
+   opacity: 0;
+   animation: show-left 0.8s forwards;
+}
+
+[data-animaScroll].active{
+   opacity: 1;
+   animation: show-right 0.8s forwards;
+}
+
+[data-animaScroll="localizacao"]{
+   opacity: 1;
+   animation: show-up 0.8s forwards;
+}
+
+[data-animaScroll="localizacao"].active{
+   opacity: 1;
+   animation: show-bottom 0.8s forwards;
+}
+
+@keyframes show-right {
+   from{
+      opacity: 0;
+      transform: translate3d(-100px,0,0);
+   }
+
+   to{
+      opacity: 1;
+      transform: translate3d(0,0,0);
+   }
+}
+
+@keyframes show-left {
+   from{
+      opacity: 1;
+      transform: translate3d(0,0,0);
+   }
+
+   to{
+      opacity: 0;
+      transform: translate3d(-100px,0,0);
+   }
+}
+
+@keyframes show-bottom {
+   from{
+      opacity: 0;
+      transform: translate3d(0,-100px,0);
+   }
+
+   to{
+      opacity: 1;
+      transform: translate3d(0,0,0);
+   }
+}
+
+@keyframes show-up {
+   from{
+      opacity: 1;
+      transform: translate3d(0,0,0);
+   }
+
+   to{
+      opacity: 0;
+      transform: translate3d(0,-100px,0);
+   }
+}

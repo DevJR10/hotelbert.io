@@ -13,6 +13,7 @@
 @import './precos.css';
 @import './localizacao.css';
 @import './fotos.css';
+@import './avaliacoes.css';
 
 *{
    border: 0;

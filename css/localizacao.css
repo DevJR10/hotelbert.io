@@ -9,6 +9,22 @@
    gap: 60px;
 }
 
+.localizacao-img{
+   position: relative;
+}
+
+.tooltip-active{
+   position: absolute;
+   background-color: rgba(0, 0, 0, .6);
+   color: white;
+   padding: 10px;
+   box-shadow: 0 0 0 2px #62A87C, 0 0 0 4px rgba(0,0,0,.6);
+   border-radius: 4px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   font-size: 0.85rem;
+}
+
 .localizacao-img img{
    height: 100%;
 }
