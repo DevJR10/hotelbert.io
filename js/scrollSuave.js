@@ -21,7 +21,6 @@ export default class scrollSuave{
    linkElement(){
       this.links.forEach((link) => {
          link.addEventListener('click', (event) => {
-            console.log(event)
             this.getHref(event)
          })
       })
