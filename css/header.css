@@ -72,7 +72,7 @@ header{
    padding-top: 90px;
    padding-left: 40px;
    display: none;
-   animation: show-right .5s forwards;
+   animation: show-left-menu .5s forwards;
 }
 
 .menu-mobile li{
@@ -81,13 +81,14 @@ header{
    font-size: 1.2rem;
    font-family: 'Poppins', sans-serif;
    font-weight: 300;
+   width: max-content;
 }
 
 .menu-mobile li a{
    color: black;
 }
 
-@keyframes show-right {
+@keyframes show-left-menu {
    from{
       opacity: 0;
       transform: translate3d(0,-30px,0);

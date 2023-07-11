@@ -60,6 +60,18 @@
    color: #62A87C;
 }
 
+.poppins{
+   font-family: 'Poppins', sans-serif;
+}
+
+.montserrat{
+   font-family: 'Montserrat', sans-serif;
+}
+
+.raleway{
+   font-family: 'Raleway', sans-serif;
+}
+
 [data-animaScroll]{
    opacity: 0;
    animation: show-left 0.8s forwards;

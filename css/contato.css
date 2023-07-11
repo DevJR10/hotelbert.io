@@ -1,0 +1,109 @@
+.contato{
+   max-width: 1100px;
+   margin: 0 auto;
+   padding-top: 70px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 100px;
+}
+
+.contato h2{
+   text-align: center;
+}
+
+.form{
+   justify-content: center;
+   display: grid;
+   grid-template-columns: 1.5fr 1fr;
+   gap: 40px;
+   padding: 60px 80px;
+   background-color: white;
+   box-shadow: 0px 0px 20px 0 rgb(0 0 0 / 10%);
+}
+
+.form-text{
+   gap: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.form-text p{
+   font-size: 1.2rem;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.imgs-sociais{
+   display: flex;
+   gap: 20px;
+}
+
+.imgs-sociais img{
+   max-width: 40px;
+   max-height: 30px;
+}
+
+.wpp{
+   max-width: 43px !important;
+   max-height: 33px !important;
+}
+
+.form-contato{
+   display: flex;
+   flex-direction: column;
+}
+
+.form-contato label{
+   font-size: 1.1rem;
+   font-family: 'Poppins', sans-serif;
+}
+
+.form-contato input{
+   font-family: 'Raleway', sans-serif;
+   margin-bottom: 30px;
+   margin-top: 5px;
+   border: 1px solid #eee;
+    background-color: #eee;
+   padding: 12px 8px;
+   border-radius: 4px;
+}
+
+.radio-qtd-pessoas{
+   display: flex;
+   margin-top: 10px;
+   gap: 15px 40px;
+   flex-wrap: wrap;
+}
+
+.radio-qtd-dias{
+   display: flex;
+   margin-top: 10px;
+   gap: 15px 40px;
+   flex-wrap: wrap;
+}
+
+.qtd-dias{
+   margin-top: 15px;
+   display: block;
+}
+
+.radio-qtd-pessoas input{
+   margin-top: 0 !important;
+   margin-bottom: 0 !important;
+}
+
+.radio-qtd-dias input{
+   margin-top: 0 !important;
+   margin-bottom: 0 !important;
+}
+
+.btn-enviar{
+   margin-top: 15px;
+}
+
+@media (max-width:800px){
+   .form{
+      grid-template-columns: 1fr;
+      padding: 60px 40px;
+   }
+}

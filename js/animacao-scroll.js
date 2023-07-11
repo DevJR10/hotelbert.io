@@ -1,6 +1,6 @@
 export default function animacaoScroll(){
    const sections = document.querySelectorAll('[data-animaScroll]')
-   const tamanhoWindow = window.innerHeight * 0.7
+   const tamanhoWindow = window.innerHeight * 0.75
    
    function animaScroll(){  
       sections.forEach((item) => {
