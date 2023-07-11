@@ -15,6 +15,7 @@
 @import './fotos.css';
 @import './avaliacoes.css';
 @import './contato.css';
+@import './footer.css';
 
 *{
    border: 0;
